@@ -1,6 +1,12 @@
 from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
+from pyzbar.pyzbar import decode
+from PIL import Image
+import os
+import requests
+from requests.auth import HTTPBasicAuth
+
 
 
 
